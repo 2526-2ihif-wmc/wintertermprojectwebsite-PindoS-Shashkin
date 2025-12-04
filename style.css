@@ -49,3 +49,21 @@ footer {
     background: #111;
     color: #aaa;
 }
+
+.game-modes td, th {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.game-modes {
+    width: 100%;
+}
+
+.game-modes > tbody > tr :first-child {
+    background: #2e2e2e;
+}
+
+.game-modes > thead > tr {
+    background: #2e2e2e;
+}
