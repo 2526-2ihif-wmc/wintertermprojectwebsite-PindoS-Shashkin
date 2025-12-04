@@ -67,3 +67,7 @@ footer {
 .game-modes > thead > tr {
     background: #2e2e2e;
 }
+
+.game-modes > tbody > tr > td {
+    text-decoration: none;
+}
