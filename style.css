@@ -24,10 +24,17 @@ nav {
 }
 
 nav a {
-    color: #e0e0e0;
-    margin: 0 15px;
+    color: #ffe6e6;
     text-decoration: none;
-    font-weight: bold;
+    margin: 0 12px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #ff6666;
+    color: #fff;
 }
 
 .container {
@@ -68,6 +75,12 @@ footer {
     background: #2e2e2e;
 }
 
-.game-modes > tbody > tr > td {
+.game-modes > tbody > tr > td > a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.game-modes > tbody > tr > td > a:hover {
+    text-decoration: none;
+    color: #ff6666;
 }
