@@ -1,5 +1,4 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: #0e0e0e;
@@ -28,6 +27,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 500;
 }
 
 h1 {
@@ -47,7 +47,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 24px;
-    z-index: 1000;
+    z-index: 500;
 }
 
 
@@ -134,13 +134,14 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 999;
+    z-index: 1001;
     padding: 20px;
     text-align: center;
 }
 
 .fullscreen:target {
     display: flex;
+    z-index: 1001;
 }
 
 .fullscreen img {
@@ -149,21 +150,24 @@ footer {
     border: 3px solid #ff6666;
     border-radius: 10px;
     margin-bottom: 20px;
+    z-index: 1001;
 }
 
 .fullscreen p {
     color: #ffe6e6;
     font-size: 18px;
     max-width: 800px;
+    z-index: 1001;
 }
 
 .close {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 30px;
     font-size: 40px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    z-index: 1001;
 }
 
