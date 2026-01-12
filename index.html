@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>War Thunder — My Experience</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/wtLogo.jpg">
@@ -95,7 +96,7 @@
         <h2>Interface Interaction</h2>
 
         <p>
-            The user interface of War Thunder is often a subject of criticism within the community.
+            <a href="#hangar-video" class="clickable">The user interface</a> of War Thunder is often a subject of criticism within the community.
             Many players describe it as outdated, complex, or visually overloaded — and to a certain extent,
             these concerns are justified.
             The game features a large number of menus, settings, and informational panels,
@@ -125,18 +126,54 @@
         </p>
     </div>
 
+    <div id="launcher" class="fullscreen">
+        <a href="#experience" class="close">×</a>
+        <img src="images/launcher.png" alt="launcher">
+        <p>
+            You can launch the game through Steam or download the official launcher, which looks a bit outdated.
+            The minimal client weighs 23.2 GB — not much, but it does not include high‑quality textures.
+            The full client weighs 65.9 GB, which is the version I personally use.
+            You can also download the Ultra HQ texture pack, which increases the size to 135.7 GB.
+        </p>
+    </div>
 
-<div id="launcher" class="fullscreen">
-    <a href="#experience" class="close">×</a>
-    <img src="images/launcher.png">
-    <p>
-        You can launch the game through Steam or download the official launcher, which looks a bit outdated.
-        The minimal client weighs 23.2 GB — not much, but it does not include high‑quality textures.
-        The full client weighs 65.9 GB, which is the version I personally use.
-        You can also download the Ultra HQ texture pack, which increases the size to 135.7 GB.
+<div id="hangar-video" class="fullscreen-vid">
+    <a href="#interface-interaction" class="close">×</a>
+    <a href="#hangar-video-2" class="next">›</a>
+
+    <video
+            src="images/hangar-ui.mp4"
+            controls
+            autoplay
+            loop
+            playsinline>
+    </video>
+
+    <p class="media-description">
+        Hangar interface – overview
     </p>
 </div>
-    <div class="container" id="features-&-mechanics">
+
+<div id="hangar-video-2" class="fullscreen-vid">
+    <a href="#interface-interaction" class="close">×</a>
+    <a href="#hangar-video" class="prev">‹</a>
+
+    <video
+            src="images/hangar-ui-2.mp4"
+            controls
+            autoplay
+            loop
+            playsinline>
+    </video>
+
+    <p class="media-description">
+        Hangar interface – vehicle selection
+    </p>
+</div>
+
+
+
+<div class="container" id="features-&-mechanics">
         <h2>Features & Mechanics</h2>
 
         <p>
@@ -264,7 +301,7 @@
         <p>
             Certain vehicles stand out due to their unique characteristics.
             For example, the <a href="#bi" class="clickable">BI</a> is a Soviet rocket-powered fighter
-            that demonstrates extreme performance differences compared to propeller-driven aircraft.
+            that demonstrates extreme performance differences compared to <a href="#others" class="clickable">propeller-driven aircraft.</a>
             The <a href="#obj279" class="clickable">Object 279</a> heavy tank showcases advanced armor design
             and firepower, while the <a href="#PT1614" class="clickable">PT16/14 mod.</a> represents
             experimental late Cold War main battle tank concepts.
@@ -278,7 +315,7 @@
 
 <div id="bi" class="fullscreen">
     <a href="#gameplay-overview" class="close">×</a>
-    <img src="images/Bi.png">
+    <img src="images/Bi.png" alt="BI plane">
     <p>
         The BI was an experimental Soviet rocket interceptor.
         Extremely fast, tiny, and highly maneuverable — but with very limited fuel.
@@ -287,7 +324,7 @@
 
 <div id="others" class="fullscreen">
     <a href="#gameplay-overview" class="close">×</a>
-    <img src="images/US%204%20rank.png">
+    <img src="images/US%204%20rank.png" alt="US 4 rank">
     <p>
         Most aircraft at 6.7 BR are still propeller‑driven,
         making them much slower and less agile compared to the BI.
@@ -296,7 +333,7 @@
 
 <div id="obj279" class="fullscreen">
     <a href="#gameplay-overview" class="close">×</a>
-    <img src="images/279.png">
+    <img src="images/279.png" alt="OBJ 279">
     <p>
         Object 279 is capable of surviving a direct hit from a 1000 kg bomb thanks to its unique hull design.
     </p>
@@ -304,7 +341,7 @@
 
 <div id="PT1614" class="fullscreen">
     <a href="#gameplay-overview" class="close">×</a>
-    <img src="images/PT16.14.png">
+    <img src="images/PT16.14.png" alt="PT16/14">
     <p>
         This tank counts as two vehicles in battle due to its performance.
     </p>
@@ -437,7 +474,7 @@
             military vehicle combat games available today.
         </p>
     </div>
-
+    </div>
 </body>
 </html>
 
